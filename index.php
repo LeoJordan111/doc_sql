@@ -10,8 +10,8 @@ include_once("./assets/data.php");
 
 <?php foreach ($articles as $key => $item): ?>
 
-    <div class="col-lg-4 col-md-6">
-        <div class="card">
+    <div class="col-lg-4 col-md-6"  style="margin-bottom:10px">
+        <div class="card" style="height:700px">
                 <div class="card-body">
                 <h5 class="card-title"> <?php echo $item['title'] ?> </h5>
                 <p class="card-text"> <?php echo $item['article'] ?> </p>
